@@ -11,8 +11,8 @@ import android.widget.FrameLayout;
  */
 public class RatioLayout extends FrameLayout {
     
-    private static final int HEIGHT = 0;
-    private static final int WIDTH = 1;
+    public static final int HEIGHT = 0;
+    public static final int WIDTH = 1;
 
     private float mRatio;
     private final int mAdjustableDimension;
@@ -64,5 +64,13 @@ public class RatioLayout extends FrameLayout {
             selectedSize = desiredSize;
         }
         return selectedSize;
+    }
+
+    public float getRatio() {
+        return mRatio;
+    }
+
+    public int getAdjustableDimension() {
+        return mAdjustableDimension;
     }
 }
