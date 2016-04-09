@@ -15,7 +15,7 @@ public class RatioLayout extends FrameLayout {
     public static final int WIDTH = 1;
 
     private float mRatio;
-    private final int mAdjustableDimension;
+    private int mAdjustableDimension;
 
     public RatioLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -72,5 +72,9 @@ public class RatioLayout extends FrameLayout {
 
     public int getAdjustableDimension() {
         return mAdjustableDimension;
+    }
+
+    public void setAdjustableDimension(int adjustableDimension) {
+        mAdjustableDimension = adjustableDimension;
     }
 }
