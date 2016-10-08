@@ -76,5 +76,6 @@ public class RatioLayout extends FrameLayout {
 
     public void setAdjustableDimension(int adjustableDimension) {
         mAdjustableDimension = adjustableDimension;
+
     }
 }
