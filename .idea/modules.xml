@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MaterialLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/MaterialLibrary.iml" group="MaterialLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="MaterialLibrary/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/materiallibrary/materiallibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/materiallibrary/materiallibrary.iml" group="MaterialLibrary/materiallibrary" />
+    </modules>
+  </component>
+</project>
